@@ -1,0 +1,18 @@
+{
+  "name": "temporize",
+  "version": "1.0.0",
+  "description": "Cache things using a lock mechanism",
+  "main": "temporize.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/temporize.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/temporize/issues"
+  },
+  "homepage": "https://github.com/bevacqua/temporize",
+  "dependencies": {
+  }
+}
