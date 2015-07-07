@@ -44,6 +44,8 @@ function loaded (err, data) {
 
 This method is particularly useful when fetching data that seldom changes, or as a way to ensure that the server isn't drowned in requests for the same bit of data. In the latter case, even setting a very low number of `seconds` can help, depending on your use case.
 
+Note that every argument will be passed to `done` every time. The `this` context will also be preserved on every call.
+
 # license
 
 MIT
